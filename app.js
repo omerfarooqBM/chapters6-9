@@ -1,3 +1,5 @@
+// ********** Question 1 *************
+
 var a=10;
 document.write("<h3>Result</h3>" +"<br>");
 document.write("The value of a is "+a +"<br>");
@@ -10,6 +12,11 @@ document.write("Now the value of a is "+ a +"<br>");
 document.write("The value of a-- is "+ a-- +"<br>");
 document.write("Now the value of a is "+ a +"<br><br>");
 
+
+
+// ********** Question 2 *************
+
+
 var a=2;
 var b=1;
 document.write("--a="+--a +"<br>");
@@ -20,14 +27,24 @@ document.write("--a - --b + ++b="+ d+"<br>");
 e= --a - --b + ++b + b--; 
 document.write("--a - --b + ++b + b-- ="+e+"<br><br>")
 
+
+// ********** Question 3 *************
+
+
 var userName = prompt("Enter your name","User");
 alert("Welcome to the website "+userName);
+
+// ********** Question 5 *************
+
 
 var table=prompt("Enter the number",5);
 for(var i=1;i<=10;i++){
     document.write(table +"X"+i+"="+table*i+"<br>");
 }
 document.write("<br>");
+
+// ********** Question 6 *************
+
 
 var sub1=prompt("Enter Subject 1");
 var obtMark1=+prompt("Enter Obtained marks of " + sub1);
